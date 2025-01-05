@@ -31,7 +31,7 @@ gr.close_all()
 demo = gr.Interface(fn=summary,
                     inputs=[gr.Textbox(label="Input text to summarize",lines=6)],
                     outputs=[gr.Textbox(label="Summarized text",lines=4)],
-                    title="@GenAILearniverse Project 1: Text Summarizer",
+                    title="Text Summarizer",
                     description="THIS APPLICATION WILL BE USED TO SUMMARIZE THE TEXT")
 demo.launch()
 
